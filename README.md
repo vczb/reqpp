@@ -19,6 +19,10 @@ Install using a [npm package](https://www.npmjs.com/package/reqpp).
 - abort requests
 - retry requests
 
+## Example
+
+- [codesandbox](https://codesandbox.io/s/reqpp-example-7f2d6e?file=/src/App.js:0-1015)
+
 ## License
 
 This project is licensed under the [MIT](./LICENSE) License.
