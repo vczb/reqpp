@@ -1,0 +1,8 @@
+.prettierec
+.prettierignore
+.eslintignore
+.gitignore
+.editorconfig
+.tool-versions
+.prettierrc.js
+yarn.lock

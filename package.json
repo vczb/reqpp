@@ -1,0 +1,33 @@
+{
+  "name": "reqpp",
+  "version": "1.0.0",
+  "description": "reqpp is a tinny and light request library",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vczb/reqpp.git"
+  },
+  "main": "lib/index.js",
+  "types": "lib",
+  "scripts": {
+    "build": "tsc -p .",
+    "lint:check": "eslint src --max-warnings=0",
+    "type:check": "tsc --project tsconfig.json --noEmit",
+    "pretty:format": "prettier --write \"src/**/*.{ts,js,json,md}\"",
+    "pretty:check": "prettier -c \"src/**/*.{ts,js,json,md}\""
+  },
+  "keywords": [],
+  "author": "vczb",
+  "email": "viniciuszucatti@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.28.5",
+    "@typescript-eslint/parser": "^4.28.5",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "^2.3.2",
+    "typescript": "^4.3.5"
+  }
+}
