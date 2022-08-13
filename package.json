@@ -1,6 +1,6 @@
 {
   "name": "reqpp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "reqpp is a tinny and light request library",
   "repository": {
     "type": "git",
@@ -15,7 +15,14 @@
     "pretty:format": "prettier --write \"src/**/*.{ts,js,json,md}\"",
     "pretty:check": "prettier -c \"src/**/*.{ts,js,json,md}\""
   },
-  "keywords": [],
+  "keywords": [
+    "fetch",
+    "fetch-retry",
+    "http-abort",
+    "retry-request",
+    "reqpp",
+    "request-plus-plus"
+  ],
   "author": "vczb",
   "email": "viniciuszucatti@gmail.com",
   "license": "MIT",

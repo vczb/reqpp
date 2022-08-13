@@ -1,6 +1,6 @@
-# REQPP
+# Request Plus Plus
 
-reqpp is a tinny and light request library
+Is a tinny and light request library
 
 ## Install
 
@@ -16,15 +16,9 @@ Install using a [npm package](https://www.npmjs.com/package/reqpp).
 
 ## Features
 
-- method GET
 - abort requests
 - retry requests
 
-## TODO:
-
-- Add support to params
-- Write tests
-
-## license
+## License
 
 This project is licensed under the [MIT](./LICENSE) License.
